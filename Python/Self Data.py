@@ -1,0 +1,5 @@
+name=input("Enter your name:")
+mb_no=int(input("Enter your mobile no:"))
+address=input("Enter your address:")
+dob=input("Enter your Date of Birth:")
+print(name,"\n",mb_no,"\n",address,"\n",dob)
