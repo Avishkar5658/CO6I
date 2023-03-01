@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_absoluteX="33dp"
+        tools:layout_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="132dp"
+            android:layout_y="380dp"
+            android:text="Mobile No"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="238dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_x="163dp"
+            android:layout_y="299dp"
+            android:text="age"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="83dp"
+            android:layout_y="329dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="86dp"
+            android:layout_y="411dp"
+            android:ems="10"
+            android:inputType="number" />
+
+    </AbsoluteLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
