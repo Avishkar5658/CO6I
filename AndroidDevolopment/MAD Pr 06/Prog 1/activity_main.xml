@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+        <TableRow
+                android:layout_width="409dp"
+                android:layout_height="58dp">
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:paddingTop="12dp"
+                android:layout_height="match_parent"
+                android:text="Student Basic Information"
+                android:textAlignment="center"
+                android:textSize="24sp"/>
+        </TableRow>
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="413dp"
+            android:layout_height="789dp"
+            android:orientation="vertical"
+            android:scrollbarStyle="outsideInset">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5828B609">
+
+                    <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="60dp"
+                            android:layout_height="51dp"
+                            android:paddingTop="12dp"
+                            android:text="ID"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="142dp"
+                        android:layout_height="40dp"
+                        android:text="Student name"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="85dp"
+                        android:layout_height="40dp"
+                        android:text="Class"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="96dp"
+                        android:layout_height="40dp"
+                        android:text="Percentage"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#20ECE6E6">
+
+                    <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="67dp"
+                            android:layout_height="50dp"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="67dp"
+                        android:layout_height="50dp"
+                        android:text="Adventure"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="67dp"
+                        android:layout_height="50dp"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="67dp"
+                        android:layout_height="50dp"
+                        android:text="90%"
+                        android:textAlignment="center"
+                        android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Siddharth"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="90%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Sahil"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="90%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Omkar"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="90%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Prajwal"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="85%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Shloke"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="85%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Prathmesh"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="80%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="8"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Swaraj"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="80%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="9"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Balaji"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="75%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20ECE6E6">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="Amey"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="67dp"
+                    android:layout_height="50dp"
+                    android:text="90%"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+        </TableLayout>
+     </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
