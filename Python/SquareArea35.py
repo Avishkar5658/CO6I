@@ -6,4 +6,4 @@ area=s*s
 print("Area of squre:",area)
 
 perimeter=4*s
-print("Perimeter of Rectangle : ",perimeter)
+print("Perimeter of Square : ",perimeter)
