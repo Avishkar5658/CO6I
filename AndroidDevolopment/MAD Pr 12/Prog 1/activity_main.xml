@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="304dp"
+        android:layout_height="36dp"
+        android:layout_above="@+id/radioButton1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="-180dp"
+        android:text="Radio Button inside Radio Group"
+        android:textColor="#090202"
+        android:textSize="20sp" />
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="584dp"
+        android:text="Radio Button 1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="535dp"
+        android:text="Radio Button 2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="216dp"
+        android:layout_height="36dp"
+        android:layout_above="@+id/radioButton1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="28dp"
+        android:text="Single Radio Buttons"
+        android:textColor="#090202"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/tv2"
+        android:layout_marginBottom="22dp"
+        android:background="?android:attr/listDivider" />
+    <RadioGroup
+        android:id="@+id/rgrp"
+        android:layout_width="294dp"
+        android:layout_height="94dp"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="338dp">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-393dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="260dp"
+        android:text="Show Selected"
+        app:iconTint="#980F0F" />
+</RelativeLayout>
