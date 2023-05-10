@@ -3,6 +3,8 @@
 
 text = input("Enter thr string: ")
 
+print("\nLenght of string", len(text))
+
 print("\nConverted String:", text.upper())
 
 print("\nConverted String:", text.lower())
